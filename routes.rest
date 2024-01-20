@@ -1,3 +1,25 @@
-GET localhost:8080/contacts
+# localhost 
+GET localhost:8080/contacts HTTP/1.1
 
 ###
+GET localhost:8080/contacts/65ac19a9f3ba0aa07938be2a HTTP/1.1
+
+###
+GET localhost:8080/contacts/65ac19f8f3ba0aa07938be2c HTTP/1.1
+
+###
+GET localhost:8080/contacts/65ac1a1bf3ba0aa07938be2d HTTP/1.1
+
+
+
+
+# Render
+###
+GET https://blromero-cse341-week2.onrender.com HTTP/1.1
+###
+GET https://blromero-cse341-week2.onrender.com/contacts/65ac19a9f3ba0aa07938be2a HTTP/1.1
+
+###
+GET https://blromero-cse341-week2.onrender.com/contacts/65ac19f8f3ba0aa07938be2c HTTP/1.1
+###
+Get https://blromero-cse341-week2.onrender.com/contacts/65ac1a1bf3ba0aa07938be2d HTTP/1.1

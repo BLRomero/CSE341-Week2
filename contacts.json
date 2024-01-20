@@ -1,5 +1,6 @@
-{
-  "contact": {
+
+  {
+    "contact1": {
     "firstName": "Fernando",
     "lastName": "Romero",
     "email": "fernandoromero@ygmail.com",
@@ -22,6 +23,4 @@
     "favoriteColor": "Orange",
     "birthday": "August 17, 2003"
   }
-    
-  
-}
+  }
