@@ -1,6 +1,6 @@
 const routes = require('express').Router();
 
-const ProfessionalController = require('../controllers/professional');
+const ProfessionalController = require('../controllers/contacts');
 
 routes.get('/', ProfessionalController.getData);
 

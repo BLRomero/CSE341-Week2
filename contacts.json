@@ -1,0 +1,27 @@
+{
+  "contact": {
+    "firstName": "Fernando",
+    "lastName": "Romero",
+    "email": "fernandoromero@ygmail.com",
+    "favoriteColor": "Purple",
+    "birthday": "May 15, 1974"
+    },
+
+  "contact2": {
+    "firstName": "Liah",
+    "lastName": "Romero",
+    "email": "liahromero@gmail.com",
+    "favoriteColor": "Teal",
+    "birthday": "March 20, 2006"
+    },
+
+  "contact3": {
+    "firstName": "Isaiah",
+    "lastName": "Romero",
+    "email": "isaiahromero@gmail.com",
+    "favoriteColor": "Orange",
+    "birthday": "August 17, 2003"
+  }
+    
+  
+}
