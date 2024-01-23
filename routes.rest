@@ -1,21 +1,50 @@
 # localhost 
-GET localhost:8080/contacts HTTP/1.1
+GET http://localhost:8080/contacts HTTP/1.1
+
+### Get contact by Id
+GET http://localhost:8080/contacts/65ac19a9f3ba0aa07938be2a HTTP/1.1
 
 ###
-GET localhost:8080/contacts/65ac19a9f3ba0aa07938be2a HTTP/1.1
+GET http://localhost:8080/contacts/65ac19f8f3ba0aa07938be2c HTTP/1.1
 
 ###
-GET localhost:8080/contacts/65ac19f8f3ba0aa07938be2c HTTP/1.1
+GET http://localhost:8080/contacts/65ac1a1bf3ba0aa07938be2d HTTP/1.1
 
-###
-GET localhost:8080/contacts/65ac1a1bf3ba0aa07938be2d HTTP/1.1
+### create contact
+POST localhost:8080/contacts HTTP/1.1
+content-Type: application/json
+
+{  
+  "firstName": "Bonnette",
+  "lastName": "Romero",
+  "email": "rom20014@byui.edu",
+  "favoriteColor": "Green",
+  "birthday": "June 5, 1975"
+  }
+
+### PUT contact
+PUT localhost:8080/contacts HTTP/1.1
+content-Type: application/json
+
+{
+ "firstName": "Bonnette",
+  "lastName": "Lemmons",
+  "email": "romerobonnette@byui.edu",
+  "favoriteColor": "Green",
+  "birthday": "June 5, 1975"
+
+}
+
+
+### DELETE contact
+PUT http://localhost:8080/contacts/ HTTP/1.1
 
 
 
 
-# Render
-###
-GET https://blromero-cse341-week2.onrender.com HTTP/1.1
+### Render
+GET http://blromero-cse341-week2.onrender.com/contacts HTTP/1.1
+
 ###
 GET https://blromero-cse341-week2.onrender.com/contacts/65ac19a9f3ba0aa07938be2a HTTP/1.1
 
