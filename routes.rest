@@ -11,7 +11,7 @@ GET http://localhost:8080/contacts/65ac19f8f3ba0aa07938be2c HTTP/1.1
 GET http://localhost:8080/contacts/65ac1a1bf3ba0aa07938be2d HTTP/1.1
 
 ### create contact
-POST localhost:8080/contacts HTTP/1.1
+POST http://localhost:8080/contacts HTTP/1.1
 content-Type: application/json
 
 {  
@@ -22,8 +22,8 @@ content-Type: application/json
   "birthday": "June 5, 1975"
   }
 
-### PUT contact
-PUT localhost:8080/contacts HTTP/1.1
+### Update contact
+PUT http://localhost:8080/contacts/65b142ee4fa0a54924567aa7 HTTP/1.1
 content-Type: application/json
 
 {
@@ -37,7 +37,7 @@ content-Type: application/json
 
 
 ### DELETE contact
-PUT http://localhost:8080/contacts/ HTTP/1.1
+DELETE http://localhost:8080/contacts/65b142ee4fa0a54924567aa7 HTTP/1.1
 
 
 
