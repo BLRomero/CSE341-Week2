@@ -16,9 +16,9 @@ content-Type: application/json
 
 {  
   "firstName": "Bonnette",
-  "lastName": "Romero",
+  "lastName": "Lemmons",
   "email": "rom20014@byui.edu",
-  "favoriteColor": "Green",
+  "favoriteColor": "Pink",
   "birthday": "June 5, 1975"
 }
 
@@ -28,7 +28,7 @@ content-Type: application/json
 
 {
  "firstName": "Bonnette",
-  "lastName": "Lemmons",
+  "lastName": "Romero",
   "email": "romerobonnette@byui.edu",
   "favoriteColor": "Green",
   "birthday": "June 5, 1975"
