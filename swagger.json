@@ -5,10 +5,10 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://blromero-cse341-week2.onrender.com/",
+  "host": "blromero-cse341-week2.onrender.com/",
   "basePath": "/",
   "schemes": [
-    "http"
+    "httpS"
   ],
   "paths": {
     "/api-docs": {
