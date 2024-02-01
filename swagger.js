@@ -5,9 +5,8 @@ const doc = {
     title: 'My API',
     description: 'Contacts API'
   },
-  host: 'https://blromero-cse341-week2.onrender.com/',
-  // host: 'localhost:8080',
-  schemes: ['http']
+  host: 'blromero-cse341-week2.onrender.com',
+  schemes: ['https']
 };
 
 const outputFile = './swagger.json';
