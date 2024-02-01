@@ -20,7 +20,7 @@ content-Type: application/json
   "email": "rom20014@byui.edu",
   "favoriteColor": "Green",
   "birthday": "June 5, 1975"
-  }
+}
 
 ### Update contact
 PUT http://localhost:8080/contacts/65b19cbebed0e90e8b0dbed4 HTTP/1.1
@@ -35,12 +35,11 @@ content-Type: application/json
 
 }
 
-
 ### DELETE contact
 DELETE http://localhost:8080/contacts/65b19cbebed0e90e8b0dbed4 HTTP/1.1
 
 ### Render
-GET http://blromero-cse341-week2.onrender.com/contacts HTTP/1.1
+GET https://blromero-cse341-week2.onrender.com/contacts HTTP/1.1
 
 ###
 GET https://blromero-cse341-week2.onrender.com/contacts/65ac19a9f3ba0aa07938be2a HTTP/1.1
@@ -62,10 +61,8 @@ Content-Type: application/json
     "birthday": "June 5, 1975"
   }
 
-
 ###
 GET https://blromero-cse341-week2.onrender.com/contacts/65b19c89c9a336bac158b228 HTTP/1.1
-
 
 ###
 PUT https://blromero-cse341-week2.onrender.com/contacts/65b19c89c9a336bac158b228 HTTP/1.1

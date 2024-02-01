@@ -5,7 +5,8 @@ const doc = {
     title: 'My API',
     description: 'Contacts API'
   },
-  host: 'localhost:8080',
+  host: 'https://blromero-cse341-week2.onrender.com/',
+  // host: 'localhost:8080',
   schemes: ['http']
 };
 
